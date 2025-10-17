@@ -23,3 +23,7 @@ var c ='2';
 
 console.log(b!=c); //false
 console.log(b!==c); // true
+
+let i =1;
+console.log(++i);
+console.log(i++);
