@@ -18,3 +18,26 @@ let newarray = marks.map(function(val){
 })
 console.log("New Array using map method:", newarray);
 
+let array = [1,2,3,4,5,6,7,8,9];
+let newarr = array.filter(function(val){
+ if(val>4) return true;
+})
+console.log("New Array using filter method:", newarr);
+
+let arr = [2,3,4,5,6,7];
+let result = arr.reduce(function(accumulator, val){
+    return accumulator + val;
+}, 0);
+console.log("Result using reduce method:", result);
+
+let a = [2,3,4,5,6];
+let [b,c, , , d] = a;
+console.log("Destructured values:", b, c, d);
+
+let brands = ["Apple", "Samsung", "OnePlus", "Nokia"];
+let brands1= [...brands]; // using spread operator
+console.log(brands);
+console.log(brands1);
+brands1.pop();
+console.log(brands);
+console.log(brands1);
