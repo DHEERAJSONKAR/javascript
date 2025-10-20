@@ -4,4 +4,7 @@
 // html badalna
 // css badalna
 // attribute
-// event listeers
+// event listners
+
+let abcd = document.getElementsByClassName("abcd");
+console.log(abcd); 
