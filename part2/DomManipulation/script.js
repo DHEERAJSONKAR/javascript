@@ -6,5 +6,6 @@
 // attribute
 // event listners
 
-let abcd = document.getElementsByClassName("abcd");
-console.log(abcd); 
+let abcd = document.querySelector("h1");
+abcd.inner = "Hello, developer dheeraj";
+ 
