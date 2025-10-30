@@ -31,9 +31,14 @@
 // document.querySelector("body").append(h2);
 // console.log(h2);
 
-let h1 = document.querySelector("h1");
+// let h1 = document.querySelector("h1");
 // h1.style.color = "red";
 // h1.style.backgroundColor = "black"; 
 // h1.style.textAlign = "center";
 // h1.style.fontFamily="Gilroy"
-h1.classList.add("human");
+// h1.classList.add("human");
+
+
+// 1. what is the Dom? how does it represent the html structure.
+// 2. name the type of nodes in the DOM tree.
+// 3. what is difference between element node and text node?
