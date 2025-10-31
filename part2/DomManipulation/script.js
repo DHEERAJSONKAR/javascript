@@ -42,3 +42,11 @@
 // 1. what is the Dom? how does it represent the html structure.
 // 2. name the type of nodes in the DOM tree.
 // 3. what is difference between element node and text node?
+// 4. what is difference between innerText , textContent and innerHTML? 
+// 5. whaen should you use textcontent instead of innertext?
+// 6. select a paragraph and replace its content with:
+// <b> updated </b> by javascript
+let p =document.querySelector("p");
+p.innerHTML = "<b> updated </b> <br> <br> by director dheeraj"; 
+let img = document.querySelector("img")
+console.log(img.src);
