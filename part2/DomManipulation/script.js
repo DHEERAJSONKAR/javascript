@@ -50,3 +50,7 @@ let p =document.querySelector("p");
 p.innerHTML = "<b> updated </b> <br> <br> by director dheeraj"; 
 let img = document.querySelector("img")
 console.log(img.src);
+// 7. select the link and update its href to point to https://ddheeraj.tech
+let a = document.querySelector("a")
+a.href = "https://ddheeraj.tech"
+console.log(a.href);
