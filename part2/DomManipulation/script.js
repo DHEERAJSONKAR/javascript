@@ -16,7 +16,7 @@
 
 // let img = document.querySelector("img")
 // img.setAttribute("src","https://images.unsplash.com/file-1715651741414-859baba4300dimage?auto=format&fit=crop&q=60&w=416&dpr=2")
- 
+
 // let a = document.querySelector("a");
 // console.log(a.getAttribute("href")); 
 
@@ -46,11 +46,44 @@
 // 5. whaen should you use textcontent instead of innertext?
 // 6. select a paragraph and replace its content with:
 // <b> updated </b> by javascript
-let p =document.querySelector("p");
-p.innerHTML = "<b> updated </b> <br> <br> by director dheeraj"; 
-let img = document.querySelector("img")
-console.log(img.src);
+// let p =document.querySelector("p");
+// p.innerHTML = "<b> updated </b> <br> <br> by director dheeraj"; 
+// let img = document.querySelector("img")
+// console.log(img.src);
 // 7. select the link and update its href to point to https://ddheeraj.tech
-let a = document.querySelector("a")
-a.href = "https://ddheeraj.tech"
-console.log(a.href);
+// let a = document.querySelector("a")
+// a.href = "https://ddheeraj.tech"
+// console.log(a.href);
+
+// add a title attribute to a div dynamically.
+// let div = document.querySelector("div");
+// div.setAttribute("title", "this is a div element");
+// console.log(div);
+
+// remove the disabled attribute from the button.
+
+
+// let button = document.querySelector("button");
+// button.removeAttribute("disabled");
+// console.log(button);
+
+// what does createElement() do? what's returned?
+// what the difference between appendchild() and prepend()?
+// create a new list item <li> NewTask </li> and add it to the end of <ul>.
+// let ul = document.querySelector("ul");
+// let li = document.createElement("li");
+// li.textContent = "New Task";
+// ul.appendChild(li);
+// console.log(ul);
+
+// create a new image element with a placeholder source and add it at the top of the div.
+// let newImg = document.createElement("img");
+// newImg.setAttribute("src","https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg?semt=ais_hybrid&w=740&q=80");
+// div.prepend(newImg);
+// console.log(div);
+
+// select the first item in a list and delete it from the Dom.
+let ul = document.querySelector("ul");
+let li = document.querySelector("li");
+ul.removeChild(li);
+// console.log(ul);
