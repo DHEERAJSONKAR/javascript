@@ -83,7 +83,18 @@
 // console.log(div);
 
 // select the first item in a list and delete it from the Dom.
-let ul = document.querySelector("ul");
-let li = document.querySelector("li");
-ul.removeChild(li);
+// let ul = document.querySelector("ul");
+// let li = document.querySelector("li");
+// ul.removeChild(li);
 // console.log(ul);
+
+let p = document.querySelector("p");
+p.addEventListener("dblclick", function(){
+    p.style.color = "red";
+});
+let input = document.querySelector("input");
+input.addEventListener("input", function(dets){
+    if(dets.data !== null)
+{
+    console.log(dets.data);
+}})
