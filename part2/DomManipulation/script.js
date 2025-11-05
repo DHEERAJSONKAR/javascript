@@ -88,13 +88,19 @@
 // ul.removeChild(li);
 // console.log(ul);
 
-let p = document.querySelector("p");
-p.addEventListener("dblclick", function(){
-    p.style.color = "red";
-});
-let input = document.querySelector("input");
-input.addEventListener("input", function(dets){
-    if(dets.data !== null)
-{
-    console.log(dets.data);
-}})
+// let p = document.querySelector("p");
+// p.addEventListener("dblclick", function(){
+//     p.style.color = "red";
+// });
+// let input = document.querySelector("input");
+// input.addEventListener("input", function(dets){
+//     if(dets.data !== null)
+// {
+//     console.log(dets.data);
+// }})
+
+let select = document.querySelector("select");
+let device = document.querySelector("#device");
+select.addEventListener("change", function(dets){
+    device.textContent = `${dets.target.value} device selected`;
+})
