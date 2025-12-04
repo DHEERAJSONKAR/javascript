@@ -99,8 +99,25 @@
 //     console.log(dets.data);
 // }})
 
-let select = document.querySelector("select");
-let device = document.querySelector("#device");
-select.addEventListener("change", function(dets){
-    device.textContent = `${dets.target.value} device selected`;
-})
+// let select = document.querySelector("select");
+// let device = document.querySelector("#device");
+// select.addEventListener("change", function(dets){
+//     device.textContent = `${dets.target.value} device selected`;
+// })
+
+
+// let h1 = document.querySelector("h1");
+// window.addEventListener("keydown", function(dets){
+//     if(dets.key === " "){
+//         h1.textContent = "Spacebar pressed"; 
+//     }else{
+//     h1.textContent = dets.key;
+//     }
+// })
+
+let btn = document.querySelector("#btn");
+let fileInp = document.querySelector("#fileInp");
+
+btn.addEventListener("click", function(){
+    fileInp.click();
+}); 
